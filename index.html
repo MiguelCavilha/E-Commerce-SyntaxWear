@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>SyntaxWear — E-commerce</title>
+  <link rel="stylesheet" href="styles/variables.css">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/layout.css">
+  <link rel="stylesheet" href="styles/components.css">
+</head>
+<body>
+  <header class="header container">
+    <div class="logo">
+      <!-- Coloque seu logo em assets/logo/ -->
+      <img src="assets/logo/logo.png" alt="SyntaxWear Logo" style="height:48px;">
+    </div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Produtos</a>
+      <a href="#">Contato</a>
+    </nav>
+  </header>
+
+  <main class="main container">
+    <h1>Bem-vindo à SyntaxWear</h1>
+    <p>Estrutura de projeto inicial criada. Adicione imagens em `assets/img/` e produtos em `assets/products/`.</p>
+  </main>
+
+  <footer class="footer">
+    © <span id="year"></span> SyntaxWear. Todos os direitos reservados.
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
