@@ -1,2 +1,5 @@
-/* Arquivo limpo por solicitação — estilos base removidos */
+body{
+    font-family: var(--font-primary);
+
+}
 
