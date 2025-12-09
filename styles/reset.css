@@ -1,0 +1,71 @@
+/* Reset CSS baseado no Modern CSS Reset de Andy Bell */
+
+/* Box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove margens padrão */
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+/* Remove list styles em ul, ol com class ou role */
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+/* Configuração do html e body */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+/* Configuração padrão do body */
+body {
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Elementos de mídia */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* Remove estilos padrão de formulários */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove animações para quem prefere */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
