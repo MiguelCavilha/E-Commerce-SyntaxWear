@@ -1,43 +1,74 @@
-<!doctype html>
-<html lang="pt-BR">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>SyntaxWear — E-commerce de Tênis</title>
-  <link rel="stylesheet" href="styles/variables.css">
-  <link rel="stylesheet" href="styles/base.css">
-  <link rel="stylesheet" href="styles/layout.css">
-  <link rel="stylesheet" href="styles/components.css">
-  <link rel="stylesheet" href="styles/reset.css">
-</head>
-<body>
-  <!-- Header com logo e navegação -->
-  <header class="header">
-    <h1>texto</h1>
-  </header>
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>SyntaxWear - Tênis e Sneakers Online</title>
 
-  <!-- Seção hero -->
-  <section id="hero" class="hero">
-    <!-- Conteúdo da seção hero aqui -->
-  </section>
+		<link rel="stylesheet" href="./styles/reset.css" />
+		<link rel="stylesheet" href="./styles/variables.css" />
+		<link rel="stylesheet" href="./styles/base.css" />
+		<link rel="stylesheet" href="./styles/layout.css" />
 
-  <!-- Seção de categorias de tênis -->
-  <section id="categories" class="categories">
-    <!-- Conteúdo das categorias aqui -->
-  </section>
+        <link rel="stylesheet" href="./styles/components/header.css">
+	</head>
+	<body>
+		<header class="header">
+			<!-- Logo e navegação -->
+			<h1 class="logo">
+				<a href="/" title="SyntaxWear - Tênis e Sneakers Online">
+					<img src="./assets/logo/logo.svg" alt="SyntaxWear - Tênis e Sneakers Online" />
+				</a>
+			</h1>
 
-  <!-- Grid com produtos em destaque -->
-  <section id="featured-products" class="featured-products">
-    <!-- Conteúdo dos produtos em destaque aqui -->
-  </section>
+			<nav class="nav-center" aria-label="Categorias Principais">
+				<ul>
+					<li><a href="#">Masculino</a></li>
+					<li><a href="#">Feminino</a></li>
+					<li><a href="#">Outlet</a></li>
+				</ul>
+			</nav>
 
-  <!-- Footer com informações de contato e links -->
-  <footer class="footer">
-    <!-- Conteúdo do footer aqui -->
-  </footer>
+			<nav class="nav-right" aria-label="Acesso rápido">
+				<ul>
+					<li><a href="#">Nossas lojas</a></li>
+					<li><a href="#">Sobre</a></li>
+					<li>
+						<a href="#" aria-label="Minha conta">
+							<img src="./assets/icons/user.svg" alt="Minha conta" />
+						</a>
+					</li>
+					<li>
+						<a href="#" aria-label="Ajuda">
+							<img src="./assets/icons/help.svg" alt="Ajuda" />
+						</a>
+					</li>
+					<li>
+						<a href="#" aria-label="Carrinho">
+							<img src="./assets/icons/shopping-bag.svg" alt="Carrinho" />
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
 
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
-</body>
+		<main>
+			<section class="hero-section">
+				<!-- Seção hero -->
+				
+			</section>
+
+			<section class="categories-section">
+				<!-- Seção de categorias de tênis -->
+			</section>
+
+			<section class="featured-products-section">
+				<!-- Grid com produtos em destaque -->
+			</section>
+		</main>
+
+		<footer class="site-footer">
+			<!-- Informações de contato e links -->
+		</footer>
+	</body>
 </html>
